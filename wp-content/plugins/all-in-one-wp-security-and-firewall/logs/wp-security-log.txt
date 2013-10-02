@@ -1,0 +1,3 @@
+[09/27/2013 4:34 PM] - SUCCESS : Logging User Out with login admin because they changed their username.
+[10/01/2013 8:34 PM] - FAILURE : Error inserting record into m80ucs_aiowps_login_activity
+[10/01/2013 10:17 PM] - FAILURE : Error inserting record into m80ucs_aiowps_login_activity

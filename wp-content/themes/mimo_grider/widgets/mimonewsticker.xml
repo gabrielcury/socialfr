@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Latest Posts" readonly="false"/>
+		<field name="textbefore" type="text" label="Text Before News" description="Write your own text" class="widefat" size="30" default="Quick News" readonly="false"/>
+		<field name="number" type="text" label="Number of Posts to Show:" description="Number of posts to show" class="widefat" size="30" default="10" readonly="false"/>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="" readonly="false"/>
+		<field name="cat" type="text" label="Category" description="Set or exclude the categories using theirs ID" class="widefat" size="30" default="" readonly="false"/>
+		<field name="showtitle" type="list" label="Show Title:" description="Include Title:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showrating" type="list" label="Show Rating:" description="Show Rating:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showexcerpt" type="list" label="Show Excerpt:" description="Include Excerpt:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showreadon" type="list" label="Show More Link:" description="Include More Link:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showdate" type="list" label="Show Date:" description="Include Search Form:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showcomments" type="list" label="Show Comments:" description="Include Comments number:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+	</fieldset>
+</form>

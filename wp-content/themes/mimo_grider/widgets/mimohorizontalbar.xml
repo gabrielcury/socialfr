@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="type" type="list" label="Bar type:" description="Style type:" class="widefat" default="yes">
+		    <option value="normal">Normal</option>
+            <option value="colormedium">Color Medium</option>
+			<option value="colorbig">Color Big</option>
+			<option value="colorbigger">Color Bigger</option>
+			<option value="dashed">Dashed</option>
+			<option value="dotted">Dotted</option>
+		</field>
+		<field name="hrname" type="text" label="Name:" description="Name to show" class="widefat" size="30" default="" readonly="false"/>
+		</fieldset>
+</form>

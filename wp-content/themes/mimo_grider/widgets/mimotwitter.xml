@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+	<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Follow us" readonly="false"/>
+		<field name="twitteruser" type="text" label="Twitter User" description="Twitter User" class="widefat" size="30" default="" readonly="false"/>
+		<field name="tweets" type="text" label="Tweets Number" description="Tweets Number" class="widefat" size="30" default="" readonly="false"/>
+	
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="" readonly="false"/>
+		
+	</fieldset>
+</form>

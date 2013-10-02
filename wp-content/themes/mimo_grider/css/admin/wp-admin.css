@@ -1,0 +1,111 @@
+/*
+Theme Name: Plus
+Theme URI: http://www.mimothemes.com
+Description: Wordpress theme by mimo
+Version: 1.0
+Author: Mimo Studio
+Author URI: http://www.mimothemes.com      */
+
+
+
+/*Portfolio Meta Control */
+
+
+.portfolio_meta_control input[type="text"]{
+	background: white;
+	border: 3px solid #cccccc;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	color: #9D9D9D;
+	font-family: "HelveticaNeue-Bold","Helvetica Neue Bold","Helvetica Bold",sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	height: 32px;
+	line-height: 22px;
+	padding: 2px 2px;
+	text-indent: 12px;
+	vertical-align: middle;
+	width: 98%;
+	float:right;
+	}
+
+/* Images
+
+********************************************************************************** */
+
+.preview, .headerpreview, .retinalogopreview{
+	float:left;
+	width:100%;
+	}
+.preview input, .headerpreview input, .retinalogopreview input{
+	margin-top:10px;
+  	padding: 10px;
+	}
+.preview img, .headerpreview img, .retinalogopreview img{ 
+	background-color:#FFF; 
+	border: 6px solid #cccccc;
+	box-shadow: 0 0 7px #999999;
+	padding:10px; float:left; 
+	margin-top:10px; 
+	-moz-box-sizing: inherit;
+	border: medium none;
+	border-radius: 6px;
+	float:left;
+}
+.preview img{
+	width:80%;
+}
+.deletelogo, .deleteheader, .deleteretinalogo{ 
+	
+  	border: 1px solid #bbb;
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+  	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  	box-shadow: inset 0 0 1px 1px #f6f6f6;
+  	color: #ffffff;
+  	font-weight:bold;
+  	font-size:12px;
+  	line-height: 1;
+  	margin-top:10px;
+  	padding: 10px;
+  	text-align: center;
+  	background: url("../../images/layout/bg-button.png") repeat-x scroll left top #66940d !Important; 
+  	border: 1px solid #66940d!Important;
+  	text-shadow: 1px -1px 0 #66940d;
+  	float:left;
+	}
+.upload_headerimage_button, .upload_image_button, .upload_retinalogoimage_button{ 
+	border: 1px solid #bbb;
+  	-webkit-border-radius: 3px;
+  	-moz-border-radius: 3px;
+  	border-radius: 3px;
+  	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  	box-shadow: inset 0 0 1px 1px #f6f6f6;
+  	color: #ffffff;
+  	font-weight:bold;
+  	font-size:12px;
+  	line-height: 1;
+  	margin-top:10px;
+  	padding: 10px;
+  	text-align: center;
+  	background: url("../../images/layout/bg-button.png") repeat-x scroll left top #66940d !Important; 
+  	border: 1px solid #66940d!Important;
+  	text-shadow: 1px -1px 0 #66940d;
+}
+
+#gantry-panel .template-preview {
+margin: 0 30px 0 0;
+width:300px;
+height:225px;
+
+}
+#gantry-panel .inner-panel .uploadimage-field label, #gantry-panel .inner-panel .uploadretinalogoimage-field label, #gantry-panel .inner-panel .uploadheaderimage-field label {
+text-align: left;
+width: 100%;
+padding-top: 2px;
+}
+.custom_repeatable li{display:inline-block;margin:10px;}

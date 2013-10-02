@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+	<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Follow us" readonly="false"/>
+		<field name="twitter" type="text" label="Twitter" description="Twitter Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="facebook" type="text" label="Facebook" description="Facebook Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="google" type="text" label="Google" description="Google Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="stumbleupon" type="text" label="Stumble Upon" description="Stumble Upon Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="linkedin" type="text" label="Linkedin" description="Linkedin Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="youtube" type="text" label="Youtube" description="Youtube Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="rss" type="text" label="Rss" description="Rss Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="mail" type="text" label="Mail" description="Mail Link" class="widefat" size="30" default="" readonly="false"/>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="" readonly="false"/>
+	</fieldset>
+</form>

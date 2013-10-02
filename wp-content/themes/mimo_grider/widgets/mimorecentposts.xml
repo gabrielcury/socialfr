@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Latest Posts" readonly="false"/>
+		<field name="numberrecent" type="text" label="Number of Posts to Show:" description="Number of posts to show" class="widefat" size="30" default="10" readonly="false"/>
+		<field name="postperpagerecent" type="text" label="Number of Posts to Show Per Page, works only if pagination is activated:" description="Number of posts to show" class="widefat" size="30" default="4" readonly="false"/>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="" readonly="false"/>
+		<field name="cat" type="text" label="Category" description="Set or exclude the categories using theirs ID" class="widefat" size="30" default="" readonly="false"/>
+		<field name="showtitlerecent" type="list" label="Show Title:" description="Include Title:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showimagerecent" type="list" label="Show Image:" description="Include Image:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showexcerptrecent" type="list" label="Show Excerpt:" description="Include Excerpt:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showdaterecent" type="list" label="Show Date:" description="Include Search Form:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showcommentsrecent" type="list" label="Show Comments:" description="Include Comments number:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showreadontotal" type="list" label="Show More Link:" description="Include More Link:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="showpag" type="list" label="Show Pagination:" description="Include Pagination:" class="widefat" default="yes">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+		<field name="startsliderrecent" type="list" label="Start News slider:" description="Automatically start sliding news" class="widefat" default="false">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+	</fieldset>
+</form>

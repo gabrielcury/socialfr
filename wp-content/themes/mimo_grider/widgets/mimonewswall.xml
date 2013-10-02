@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+		<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="NewsWall" readonly="false"/>
+		<field name="nshow" type="text" label="Post Per Page to Show:" description="Number of items to show" class="widefat" size="30" default="10" readonly="false"/>
+		
+		<field name="ncol" type="list" label="Number of Columns to Use:" description="Number of Columns to Use:" class="widefat"  default="1">
+		    <option value="1">1</option>
+            <option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</field>
+		<field name="nfilter" type="list" label="Show Categories Filter:" description="Show Categories Filter:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="npag" type="list" label="Show Pagination:" description="Show Pagination:" class="widefat" default="yes">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="infinitescroll" type="list" label="Infinite Scroll:" description="Show more in posts while you scroll" class="widefat" default="no">
+			<option value="auto">Auto</option>
+            <option value="button">Button</option>
+			<option value="no">No</option>
+		</field>
+		<field name="showrating" type="list" label="Show Rating:" description="Show Rating:" class="widefat" default="no">
+		    <option value="yes">Yes</option>
+            <option value="no">No</option>
+		</field>
+		<field name="ntax" type="text" label="Categories to Show (Use Id's separated by comas, leave empty for all):" description="Categories to show" class="widefat" size="30" default="" readonly="false"/>
+		
+	</fieldset>
+</form>

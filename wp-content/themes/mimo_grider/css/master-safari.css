@@ -1,0 +1,29 @@
+/* Newswall Adjustments */
+
+.large1 .standarditem {width:100%;}
+.large1 .imageitem {width:100%;}
+.large1 .audioitem {width:100%;}
+.large1 .linkitem {width:100%;}
+.large1 .videoitem {width:100%;}
+.large2 .standarditem {width:49.8%;}
+.large2 .imageitem {width:49.8%;}
+.large2 .audioitem {width:49.8%;}
+.large2 .linkitem {width:49.8%;}
+.large2 .videoitem {width:49.8%;}
+.large3 .imageitem{width:66.5%; vertical-align:top;}
+.large3 .linkitem{width:33.3%;vertical-align:top;}
+.large3 .audioitem{width:33.3%;vertical-align:top;}
+.large3 .videoitem{width:66.5%;vertical-align:top;}
+.large3 .standarditem{width:33.3%;vertical-align:top;}
+.large4 .standarditem {width:24.8%;}
+.large4 .imageitem {width:49.8%;}
+.large4 .audioitem {width:24.8%;}
+.large4 .linkitem {width:24.8%;}
+.large4 .videoitem {width:49.8%;}
+
+/*Carousel Adjustments */
+
+.ca-item1col, .ca-wrapper .ca-item1col{width:100%;display:inline-block;}
+.ca-item2col, .ca-wrapper .ca-item2col {width:50%;display:inline-block;}
+.ca-item3col, .ca-wrapper .ca-item3col{width:33.333333%;display:inline-block;}
+.ca-item4col, .ca-wrapper .ca-item4col{width:25%;display:inline-block;}

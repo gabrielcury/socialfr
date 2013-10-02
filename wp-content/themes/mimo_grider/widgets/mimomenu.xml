@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: style.xml 16565 2010-04-28 12:21:27Z ian $ -->
+<form>
+	<fieldset name="widget">
+	<field name="title" type="text" label="Title" description="Title" class="widefat" size="30" default="Follow us" readonly="false"/>
+		<field name="nav_menu" type="text" label="Menu" description="Menu" class="widefat" size="30" default="main" readonly="false"/>
+		<field name="autoClose" type="list" label="auto Close:" description="auto Close:" class="widefat" default="true">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+	
+	<field name="menuClose" type="list" label="menu Close:" description="menu Close:" class="widefat" default="true">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+		<field name="saveState" type="list" label="save State:" description="save State:" class="widefat" default="true">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+		<field name="autoExpand" type="list" label="auto Expand:" description="auto Expand:" class="widefat" default="true">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+		<field name="disableLink" type="list" label="disable Link:" description="disable Link:" class="widefat" default="true">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+		
+		<field name="showCount" type="list" label="showCount:" description="showCount:" class="widefat" default="true">
+		    <option value="true">Yes</option>
+            <option value="false">No</option>
+		</field>
+		<field name="event" type="list" label="Event:" description="Event:" class="widefat" default="hover">
+		    <option value="click">click</option>
+            <option value="hover">Hover</option>
+		</field>
+		<field name="speed" type="list" label="speed:" description="speed:" class="widefat" default="slow">
+		    <option value="slow">Slow</option>
+            <option value="fast">Fast</option>
+		</field>
+		<field name="hoverDelay" type="text" label="hoverDelay" description="hoverDelay" class="widefat" size="30" default="0" readonly="false"/>
+		<field name="classDisable" type="text" label="disableClass" description="disableClass" class="widefat" size="30" default="menudisable" readonly="false"/>
+		<field name="menu_class" type="text" label="List Class" description="List Class" class="widefat" size="30" default="" readonly="false"/>
+		
+	</fieldset>
+</form>
